@@ -178,6 +178,12 @@ body {
   font-size: 20px;
   font-weight: 500;
 }
+.content-main .content-products .product-item .product-info .product-title p {
+  font-size: 14px;
+  line-height: 1.3em;
+  font-weight: 400;
+  padding-top: 5px;
+}
 .content-main .content-products .product-item .product-info .product-price {
   height: 100px;
   display: flex;

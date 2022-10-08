@@ -80,6 +80,7 @@
                 <div class="product-info">
                     <div class="product-title">
                         {{ $product->name }}
+                        <p>{{str_replace("Afmetingen", "", $product->description)}}</p>
                     </div>
                     <div class="product-price">
                         <p class="old_price">was: &euro; {{ $product->old_price }},-</p>
