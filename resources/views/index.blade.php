@@ -6,6 +6,12 @@
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('css/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="apple-touch-icon" sizes="76x76" href="{{ URL::asset('images/apple-touch-icon.png') }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ URL::asset('images/favicon-32x32.png') }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ URL::asset('images/favicon-16x16.png') }}">
+    <link rel="manifest" href="{{ URL::asset('images/site.webmanifest') }}">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400&display=swap" rel="stylesheet">
@@ -84,7 +90,7 @@
                         <p>{{str_replace("Afmetingen", "", $product->description)}}</p>
                     </div>
                     <div class="product-price">
-                        <p class="old_price">was: &euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
+                        <p class="old_price">was: &euro; {{ str_replace('.', ',', strval( $product->old_price )) }}</p>
                         <p class="price">&euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
                     </div>
                 </div>
