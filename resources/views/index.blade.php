@@ -84,7 +84,7 @@
                         <p>{{str_replace("Afmetingen", "", $product->description)}}</p>
                     </div>
                     <div class="product-price">
-                        <p class="old_price">was: &euro; {{ str_replace('.', ',', strval( $product->new_price )) }},-</p>
+                        <p class="old_price">was: &euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
                         <p class="price">&euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
                     </div>
                 </div>
