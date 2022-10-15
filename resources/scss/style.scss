@@ -7,7 +7,10 @@
 }
 $container-padding: 0 15%;
 body {
-    background-color: #434343;
+    background-color: #434343!important;
+}
+p {
+    margin-bottom: 0!Important;
 }
 @include sm {
     p {
@@ -222,6 +225,17 @@ body {
                 margin: 5% 1%;
             }
         }
+    }
+    .text-muted {
+        color: white!important;
+    }
+    .page-item.active .page-link {
+        background-color: #434343!important;
+        border-color: #434343!important;
+        color: white!important;
+    }
+    .page-link {
+        color: gray!important;
     }
 }
 @include sm {

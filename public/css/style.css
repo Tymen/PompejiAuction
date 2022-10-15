@@ -6,7 +6,11 @@
 }
 
 body {
-  background-color: #434343;
+  background-color: #434343 !important;
+}
+
+p {
+  margin-bottom: 0 !important;
 }
 
 @media (max-width: 760px) {
@@ -201,6 +205,17 @@ body {
   .content-main .content-products .product-item {
     margin: 5% 1%;
   }
+}
+.content-main .text-muted {
+  color: white !important;
+}
+.content-main .page-item.active .page-link {
+  background-color: #434343 !important;
+  border-color: #434343 !important;
+  color: white !important;
+}
+.content-main .page-link {
+  color: gray !important;
 }
 
 @media (max-width: 760px) {
