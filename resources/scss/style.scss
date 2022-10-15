@@ -237,6 +237,15 @@ p {
     .page-link {
         color: gray!important;
     }
+    .links {
+        padding: 0 8%;
+    }
+    @include xs {
+        .links {
+            display: flex;
+            justify-content: center;
+        }
+    }
 }
 @include sm {
     .content-main {

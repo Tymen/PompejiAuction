@@ -217,6 +217,15 @@ p {
 .content-main .page-link {
   color: gray !important;
 }
+.content-main .links {
+  padding: 0 8%;
+}
+@media (max-width: 640px) {
+  .content-main .links {
+    display: flex;
+    justify-content: center;
+  }
+}
 
 @media (max-width: 760px) {
   .content-main {
