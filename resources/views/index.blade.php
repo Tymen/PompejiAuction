@@ -85,7 +85,7 @@
                     </div>
                     <div class="product-price">
                         <p class="old_price">was: &euro; {{ $product->old_price }},-</p>
-                        <p class="price">&euro; {{ $product->new_price }},-</p>
+                        <p class="price">&euro; {{ $product->new_price }}</p>
                     </div>
                 </div>
             </div>
