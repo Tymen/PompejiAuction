@@ -41,7 +41,7 @@
                     </svg>                        
                 </div>
                 <div class="item-text">
-                    +31 6 123456789
+                    +31 6 51404683
                 </div>
             </div>
             <div class="landing-contact-item">
