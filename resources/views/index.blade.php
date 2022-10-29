@@ -24,6 +24,7 @@
             <div class="landing-info-logo">
                 <img alt="Logo" src=" {{ URL::asset('images/logo-pompeji.png') }}">
             </div>
+            <h3><strong style="color: #ff5858">4 en 5 november zijn wij gesloten!</strong></h3>
             <div class="landing-info-text">
                 <p>GROTE OPRUIMING!</p>
                 <div class="landing-info-sub-text-main">
