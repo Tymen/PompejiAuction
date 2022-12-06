@@ -15,3 +15,6 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [ProductController::class, 'index']);
+Route::any('{url}', function(){
+    return redirect('/');
+})->where('url', '.*');
