@@ -17,6 +17,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pompeji | Home</title>
+    <meta name="description" content=""/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <meta name="keywords" content="marmeren schouwen, zandstenen schouwen, haardaccessoires, gietijzeren ligbaden, radiatoren, spiegels, verlichting, deuren, decoratief antiek, kranen, haardrooster">
+    <meta name="description" content="In 1993 zijn wij begonnen in een oude boerderij te Oldebroek en sinds 2015 kunt u ons vinden in Biddinghuizen.">
+    <meta name="generator" content="Pompeji.nl - Schouwen handel en restauratie">
 </head>
 <body>
     <div class="landing-main">
