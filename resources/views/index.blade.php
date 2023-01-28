@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -17,7 +17,6 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100;0,8..144,200;0,8..144,300;0,8..144,400;0,8..144,500;1,8..144,100;1,8..144,200;1,8..144,300;1,8..144,400&display=swap" rel="stylesheet">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pompeji CV | Zandstenen Schouwen Home</title>
-    <meta name="description" content=""/>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <meta name="keywords" content="marmeren schouwen, zandstenen schouwen, haardaccessoires, gietijzeren ligbaden, radiatoren, spiegels, verlichting, deuren, decoratief antiek, kranen, haardrooster">
     <meta name="description" content="In 1993 zijn wij begonnen in een oude boerderij te Oldebroek en sinds 2015 kunt u ons vinden in Biddinghuizen.">
@@ -107,5 +106,8 @@
             {{ $products->links() }}
         </div>
     </div>
+    <footer style="text-align: center; padding: 1%;">
+        &copy; Pompeji C.V
+    </footer>
 </body>
 </html>
