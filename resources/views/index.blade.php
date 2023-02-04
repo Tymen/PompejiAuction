@@ -85,21 +85,26 @@
         </div>
         <div class="content-products">
             @foreach($products as $product)
-            <div class="product-item">
-                <div class="product-image">
-                    <img alt="product_image" src="{{ $product->image_url }}">
-                </div>
-                <div class="product-info">
-                    <div class="product-title">
-                        {{ $product->name }}
-                        <p>{{str_replace("Afmetingen", "", $product->description)}}</p>
+                <div class="product-item">
+                    <div class="product-image">
+                        <img alt="product_image" src="{{ $product->image_url }}">
                     </div>
-                    <div class="product-price">
-                        <p class="old_price">was: &euro; {{ str_replace('.', ',', strval( $product->old_price )) }}</p>
-                        <p class="price">&euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
+                    <div class="product-info">
+                        <div class="product-title">
+                            {{ $product->name }}
+                            <p>{{str_replace("Afmetingen", "", $product->description)}}</p>
+                        </div>
+                        <div class="product-price">
+                            @if($product->sold)
+                                <p class="old_price">&euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
+                                <p class="price">VERKOCHT!</p>
+                            @else
+                                <p class="old_price">was: &euro; {{ str_replace('.', ',', strval( $product->old_price )) }}</p>
+                                <p class="price">&euro; {{ str_replace('.', ',', strval( $product->new_price )) }}</p>
+                            @endif
+                        </div>
                     </div>
                 </div>
-            </div>
             @endforeach
         </div>
         <div class="links">
