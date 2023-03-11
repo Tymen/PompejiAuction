@@ -28,7 +28,7 @@
             <div class="landing-info-logo">
                 <img alt="Logo" src=" {{ URL::asset('images/logo-pompeji.png') }}">
             </div>
-            <h3><strong style="color: #ff5858">24-02-2023 t/m 25-02-2023 zijn wij gesloten!</strong></h3>
+            <h3><strong style="color: #ff5858">25-03-2023 t/m 1-04-2023 zijn wij gesloten!</strong></h3>
             <div class="landing-info-text">
                 <p>GROTE OPRUIMING!</p>
                 <div class="landing-info-sub-text-main">
