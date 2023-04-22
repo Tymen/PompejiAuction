@@ -80,7 +80,7 @@
             <h2>Interesse in een product?</h2>
             <p>
                 Neem dan contact met ons op of kom bij ons langs!<br>
-                Openings tijden: vrijdag - zaterdag van 10:00 - 16:00
+                Openings tijden: zaterdag van 10:00 - 16:00
             </p>
         </div>
         <div class="content-products">
